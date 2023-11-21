@@ -1,0 +1,82 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    background-color: aliceblue;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+header .logo img {
+    max-width: 80px;
+    border-radius: 50%;
+    margin-left: 40px;
+}
+
+.navbar-blue a {
+    color: black;
+    margin-right: 180px;
+    font-weight: bold;
+}
+
+.navbar-blue a:hover {
+    color: #ecf0f1;
+}
+
+.navbar-blue .navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+    margin-left: -44px;
+}
+
+.navbar-blue .dropdown-item {
+    margin: 0;
+    padding: 10px 20px;
+    color: black;
+}
+
+.navbar-blue .dropdown-menu {
+    margin: 0;
+}
+
+#best-books {
+    margin-top: 50px;
+}
+
+.book {
+    margin-bottom: 30px;
+}
+
+.book img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.book h3 {
+    margin-top: 10px;
+}
+
+/* Top Books Section */
+#top-books {
+    margin-top: 50px;
+}
+
+#top-books ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+#top-books ol li {
+    margin-bottom: 10px;
+}
