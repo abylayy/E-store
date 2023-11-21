@@ -1,3 +1,28 @@
+@media (max-width: 768px) {
+    header .logo img {
+        max-width: 60px;
+    }
+
+    .navbar-blue a {
+        margin-right: 40px;
+    }
+
+    #creator-info h2 {
+        margin-left: 20px;
+    }
+
+    .profile-photo img {
+        max-width: 150px;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+    .book img {
+        width: 50%;
+        height: auto;
+    }
+}
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -50,33 +75,87 @@ header .logo img {
     margin: 0;
 }
 
+h2 {
+    text-align: center;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
 #best-books {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .book {
     margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 40px;
 }
 
 .book img {
-    max-width: 100%;
+    width: 20%;
+    height: 28%;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
 }
 
-.book h3 {
+.book h3, p, button {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.buy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.others{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buy_price {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cart-bttns {
     margin-top: 10px;
 }
 
-/* Top Books Section */
+.cart-bttns button {
+    padding: 8px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
 #top-books {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 #top-books ol {
-    list-style-type: none;
+    list-style: none;
     padding: 0;
 }
 
 #top-books ol li {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
+
+footer {
+    background-color: #3498db;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+

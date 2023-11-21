@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,17 +24,18 @@
 <div class="container-fluid">
     <header>
         <div class="logo">
-            <img id="book-logo"
+            <img id="kff-logo"
                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyV5Tap45DEVwscIvR3GYESxCt7qLlbQAsPg&usqp=CAU"
                  alt="E-Book Logo">
         </div>
         <div class="header-text">
             <nav class="navbar navbar-expand-lg navbar-blue bg-blue">
                 <button class="navbar-toggler btn btn-light" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent"
-                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <a class="navbar-brand" href="index.html">Home</a>
                     <ul class="navbar-nav mr-auto">
@@ -41,7 +43,7 @@
                             <a class="nav-link" href="index.html">Bestsellers<span class="sr-only"></span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="book.html">Book<span class="sr-only"></span></a>
+                            <a class="nav-link" href="book.html">Books</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="quiz.html">Quiz</a>
@@ -66,48 +68,141 @@
     <section id="best-books">
         <div class="row">
             <div class="col-md-12">
-                <h2>Best Books</h2>
+                <div class = "card">
+                <h2>Trending Books</h2>
+                </div>
 
                 <!-- Book 1 -->
-                <div class="book">
-                    <img src="book1_cover.jpg" alt="Book 1 Cover">
-                    <h3>Book Title 1</h3>
-                    <p>Cover Price: $19.99</p>
-                    <p>Where to Buy: <a href="buy_book1_link">Bookstore 1</a></p>
-                </div>
+                <section>
+                    <div class="book">
+                        <img src="img/notasastranger.jpg" alt="notasastranger" width="360x" height="480px">
+                        <h3>Not as a stranger</h3>
+                        <p>Cover Price: $24.99</p>
+                        <p><button type="button" class="btn btn-primary">Buy</button></p>
+                        <p>Where to Buy: <a href="">Not as a stranger</a></p>
+                        <div class="buy"></div>
+                        <div class="buy_clmn">
+                            <div class="ajax-wait hidden"></div>
+                            <h3>Buy from Other Retailers:</h3><br>
+                            <div class="others">
+                                <div class="btn-group d-flex flex-wrap" role="group">
+                                    <button type="button" class="btn btn-outline-info mb-2">
+                                        <a target="_blank" href="https://bookshop.org/a/2186/9780593158708?prhc=PRHEFFDF5A7F1" rel="nofollow noopener noreferrer" data-retailer="Bookshop.org" aria-label="buy 9780593158708 on Bookshop.org">Bookshop.org</a>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-info mb-2">
+                                        <a target="_blank" href="http://www.hudsonbooksellers.com/book/9780593158708?utm_source=prh&amp;utm_medium=affiliate&amp;utm_term=301&amp;utm_content=PRHEFFDF5A7F1--9780593158708&amp;utm_campaign=9780593158708" rel="nofollow noopener noreferrer" data-retailer="Hudson Booksellers" aria-label="buy 9780593158708 on Hudson Booksellers">Hudson Booksellers</a>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-info mb-2">
+                                        <a target="_blank" href="https://goto.walmart.com/c/128773/565706/9383?subId1=PRHEFFDF5A7F1&amp;veh=aff&amp;sourceid=imp_000011112222333344&amp;u=https%3A%2F%2Fwww.walmart.com%2Fsearch%3Fquery%3D9780593158708" rel="nofollow noopener noreferrer" data-retailer="Walmart" aria-label="buy 9780593158708 on Walmart">Walmart</a>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
 
                 <!-- Book 2 -->
-                <div class="book">
-                    <img src="book2_cover.jpg" alt="Book 2 Cover">
-                    <h3>Book Title 2</h3>
-                    <p>Cover Price: $24.99</p>
-                    <p>Where to Buy: <a href="buy_book2_link">Bookstore 2</a></p>
-                </div>
+                <section>
+                    <div class="book">
+                        <img src="img/silmarillion.jpg" alt="silmarillion" width="360x" height="480px">
+                        <h3>The Silmarillion</h3>
+                        <p>Cover Price: $28.99</p>
+                        <p><button type="button" class="btn btn-primary">Buy</button></p>
+                        <p>Where to Buy:<a href="">The Silmarillion</a></p>
+                        <div class="buy"></div>
+                        <div class="buy_clmn">
+                            <div class="ajax-wait hidden"></div>
+                            <h3>Buy from Other Retailers:</h3><br>
+                            <div class="others">
+                                <div class="btn-group d-flex flex-wrap" role="group">
+                                    <button type="button" class="btn btn-outline-info mb-2">
+                                        <a target="_blank" href="https://bookshop.org/a/2186/9780593158708?prhc=PRHEFFDF5A7F1" rel="nofollow noopener noreferrer" data-retailer="Bookshop.org" aria-label="buy 9780593158708 on Bookshop.org">Bookshop.org</a>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-info mb-2">
+                                        <a target="_blank" href="http://www.hudsonbooksellers.com/book/9780593158708?utm_source=prh&amp;utm_medium=affiliate&amp;utm_term=301&amp;utm_content=PRHEFFDF5A7F1--9780593158708&amp;utm_campaign=9780593158708" rel="nofollow noopener noreferrer" data-retailer="Hudson Booksellers" aria-label="buy 9780593158708 on Hudson Booksellers">Hudson Booksellers</a>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-info mb-2">
+                                        <a target="_blank" href="https://goto.walmart.com/c/128773/565706/9383?subId1=PRHEFFDF5A7F1&amp;veh=aff&amp;sourceid=imp_000011112222333344&amp;u=https%3A%2F%2Fwww.walmart.com%2Fsearch%3Fquery%3D9780593158708" rel="nofollow noopener noreferrer" data-retailer="Walmart" aria-label="buy 9780593158708 on Walmart">Walmart</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
-                <!-- Add more books as needed -->
 
+                <!-- Book 3 -->
+                <section>
+                    <div class="book">
+                        <img src="img/makhabbat.jpg" alt="makhabbat" width="360x" height="480px">
+                        <h3>Makhabbat, qyzyq mol zhyldar</h3>
+                        <p>Cover Price: $99.99</p>
+                        <p><button type="button" class="btn btn-primary">Buy</button></p>
+                        <p>Where to Buy: <a href="">Makhabbat, qyzyq mol zhyldar</a></p>
+                        <div class="buy"></div>
+                        <div class="buy_clmn">
+                            <div class="ajax-wait hidden"></div>
+                            <h3>Buy from Other Retailers:</h3><br>
+                            <div class="others">
+                                <div class="btn-group d-flex flex-wrap" role="group">
+                                    <button type="button" class="btn btn-outline-info mb-2">
+                                        <a target="_blank" href="https://bookshop.org/a/2186/9780593158708?prhc=PRHEFFDF5A7F1" rel="nofollow noopener noreferrer" data-retailer="Bookshop.org" aria-label="buy 9780593158708 on Bookshop.org">Bookshop.org</a>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-info mb-2">
+                                        <a target="_blank" href="http://www.hudsonbooksellers.com/book/9780593158708?utm_source=prh&amp;utm_medium=affiliate&amp;utm_term=301&amp;utm_content=PRHEFFDF5A7F1--9780593158708&amp;utm_campaign=9780593158708" rel="nofollow noopener noreferrer" data-retailer="Hudson Booksellers" aria-label="buy 9780593158708 on Hudson Booksellers">Hudson Booksellers</a>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-info mb-2">
+                                        <a target="_blank" href="https://goto.walmart.com/c/128773/565706/9383?subId1=PRHEFFDF5A7F1&amp;veh=aff&amp;sourceid=imp_000011112222333344&amp;u=https%3A%2F%2Fwww.walmart.com%2Fsearch%3Fquery%3D9780593158708" rel="nofollow noopener noreferrer" data-retailer="Walmart" aria-label="buy 9780593158708 on Walmart">Walmart</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Book 4 -->
+                <section>
+                    <section></section>
+                    <div class="book">
+                        <img src="img/diary.jpg" alt="diary" width="360x" height="480px">
+                        <h3>Diary of a Wimpy Kid</h3>
+                        <p>Cover Price: $32.99</p>
+                        <p><button type="button" class="btn btn-primary">Buy</button></p>
+                        <p>Where to Buy: <a href="">Diary of a Wimpy Kid</a></p>
+                        <div class="buy"></div>
+                        <div class="buy_clmn">
+                            <div class="ajax-wait hidden"></div>
+                            <h3>Buy from Other Retailers:</h3><br>
+                            <div class="others">
+                                <div class="btn-group d-flex flex-wrap" role="group">
+                                    <button type="button" class="btn btn-outline-info mb-2">
+                                        <a target="_blank" href="https://bookshop.org/a/2186/9780593158708?prhc=PRHEFFDF5A7F1" rel="nofollow noopener noreferrer" data-retailer="Bookshop.org" aria-label="buy 9780593158708 on Bookshop.org">Bookshop.org</a>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-info mb-2">
+                                        <a target="_blank" href="http://www.hudsonbooksellers.com/book/9780593158708?utm_source=prh&amp;utm_medium=affiliate&amp;utm_term=301&amp;utm_content=PRHEFFDF5A7F1--9780593158708&amp;utm_campaign=9780593158708" rel="nofollow noopener noreferrer" data-retailer="Hudson Booksellers" aria-label="buy 9780593158708 on Hudson Booksellers">Hudson Booksellers</a>
+                                    </button>
+                                    <button type="button" class="btn btn-outline-info mb-2">
+                                        <a target="_blank" href="https://goto.walmart.com/c/128773/565706/9383?subId1=PRHEFFDF5A7F1&amp;veh=aff&amp;sourceid=imp_000011112222333344&amp;u=https%3A%2F%2Fwww.walmart.com%2Fsearch%3Fquery%3D9780593158708" rel="nofollow noopener noreferrer" data-retailer="Walmart" aria-label="buy 9780593158708 on Walmart">Walmart</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
         </div>
     </section>
 
-    <section id="top-books">
+    <footer>
         <div class="row">
             <div class="col-md-12">
-                <h2>Top Books</h2>
-
-                <ol>
-                    <li>Top Book 1</li>
-                    <li>Top Book 2</li>
-                    <!-- Add more top books as needed -->
-                </ol>
+                <p>&copy; 2023 DANNA E-Book Store. All Rights Reserved.</p>
             </div>
         </div>
-    </section>
-    <footer>
-
     </footer>
 </div>
-<script src="js/animation.js"></script>
 </body>
 
 </html>
