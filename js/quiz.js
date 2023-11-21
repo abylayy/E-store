@@ -4,6 +4,8 @@ var correctPlacement = {
     "div4": "drag3"
 };
 
+var winSound = new Audio("music/win.mp3");
+
 function allowDrop(ev) {
     ev.preventDefault();
 }
@@ -49,6 +51,9 @@ function checkWin() {
     var resetBtn = document.getElementById('reset-btn');
 
     if (allCorrect) {
+
+        winSound.play()
+
         resultElement.innerHTML = "Congratulations! You win! Enter this code: 7777 to buy ticket with -50% SALE";
         resultElement.style.color = "#4CAF50";
         resetBtn.style.display = "none";
