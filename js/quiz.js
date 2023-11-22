@@ -1,7 +1,9 @@
 var correctPlacement = {
     "div6": "drag1",
     "div2": "drag2",
-    "div4": "drag3"
+    "div4": "drag3",
+    "div10": "drag4",
+    "div8": "drag5",
 };
 
 var winSound = new Audio("music/win.mp3");
